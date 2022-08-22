@@ -13,12 +13,6 @@ exports.npmu = (cb) => npmu([
     path: join(__dirname, '../npmu'), packageName: '@franzzemen/npmu',
   }, {
     path: join(__dirname, '../app-utility'), packageName: '@franzzemen/app-utility',
-  }, {
-    path: join(__dirname, '../re-common'), packageName: '@franzzemen/re-common',
-  }, {
-    path: join(__dirname, '../re-data-type'), packageName: '@franzzemen/re-data-type',
-  }, {
-    path: join(__dirname, '../re-expression'), packageName: '@franzzemen/re-expression',
   },{
     path: join(__dirname, './'), packageName: '@franzzemen/re-standard-functions',
   }])
