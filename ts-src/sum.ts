@@ -1,5 +1,5 @@
 import {ExecutionContextI, LoggerAdapter} from '@franzzemen/app-utility';
-import {AwaitEvaluation} from '@franzzemen/re-expression';
+import {AwaitEvaluation} from '@franzzemen/app-utility/await-evaluation';
 
 export function sumFactory(...params): AwaitEvaluation {
   // const log = new LoggerAdapter(params[params.length-1], 'rules-engine-functions', 'sum', 'sumFactory');

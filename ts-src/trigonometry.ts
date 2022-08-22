@@ -1,5 +1,5 @@
 import {ExecutionContextI, LoggerAdapter} from '@franzzemen/app-utility';
-import {AwaitEvaluation} from '@franzzemen/re-expression';
+import {AwaitEvaluation} from '@franzzemen/app-utility/await-evaluation';
 import {unaryMathFunction} from './unaryMathFunction';
 
 export function cosFactory(...params): AwaitEvaluation {
