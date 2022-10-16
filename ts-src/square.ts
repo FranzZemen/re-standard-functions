@@ -1,6 +1,5 @@
-import {ExecutionContextI} from '@franzzemen/app-utility';
-import {AwaitEvaluation} from '@franzzemen/app-utility/await-evaluation';
-import {unaryMathFunction} from './unaryMathFunction';
+import {AwaitEvaluation, ExecutionContextI} from '@franzzemen/app-utility';
+import {unaryMathFunction} from './unaryMathFunction.js';
 
 export function squareFactory(...params): AwaitEvaluation {
   // const log = new LoggerAdapter(params[params.length-1], 'rules-engine-functions', 'square', 'squareFactory');

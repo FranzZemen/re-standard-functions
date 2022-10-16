@@ -1,6 +1,6 @@
 import 'mocha';
 import chai from 'chai';
-import {averageFactory, cosFactory, squareFactory, squareRootFactory, sumFactory} from '../publish';
+import {averageFactory, cosFactory, squareFactory, squareRootFactory, sumFactory} from '../publish/index.js';
 
 const expect = chai.expect;
 const should = chai.should();

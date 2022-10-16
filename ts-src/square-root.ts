@@ -1,6 +1,5 @@
-import {ExecutionContextI} from '@franzzemen/app-utility';
-import {AwaitEvaluation} from '@franzzemen/app-utility/await-evaluation';
-import {unaryMathFunction} from './unaryMathFunction';
+import {AwaitEvaluation, ExecutionContextI} from '@franzzemen/app-utility';
+import {unaryMathFunction} from './unaryMathFunction.js';
 
 export function squareRootFactory(...params): AwaitEvaluation {
   return squareRoot;
